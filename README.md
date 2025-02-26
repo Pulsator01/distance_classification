@@ -29,42 +29,24 @@
 ### 3. Explain various distance metrics. 
 
 #### Euclidean Distance:
-\[
-d(p, q) = \sqrt{\sum_{i=1}^n (p_i - q_i)^2}
-\]
 This metric measures the straight-line distance between two points in n-dimensional space. It is widely used in tasks such as clustering and classification.
 
 #### Manhattan Distance:
-\[
-d(p, q) = \sum_{i=1}^n |p_i - q_i|
-\]
 Also known as L1 distance, it is useful for calculating distances in grid-based systems, as it measures the sum of the absolute differences between coordinates.
 
 #### Minkowski Distance:
-\[
-d(p, q) = \left(\sum_{i=1}^n |p_i - q_i|^p\right)^{1/p}
-\]
 Minkowski distance is a generalization of both Euclidean (p=2) and Manhattan (p=1) distances. When the parameter p approaches infinity, it becomes the Chebyshev distance.
 
 #### Chebyshev Distance:
-\[
-d(p, q) = \max(|p_i - q_i|)
-\]
 This distance metric calculates the maximum absolute difference along any coordinate dimension. It is commonly used in board games like chess to determine the minimum number of moves needed for a king.
 
 #### Cosine Distance:
-\[
-\text{similarity}(A, B) = \frac{A \cdot B}{\|A\|\|B\|}
-\]
 Cosine distance evaluates the angle between two vectors rather than their magnitude. It is particularly effective in high-dimensional spaces, such as those encountered in text classification tasks.
 
 #### Hamming Distance:
 Hamming distance counts the number of differing elements between two binary vectors. It is often used in error detection and correction algorithms.
 
 #### Mahalanobis Distance:
-\[
-d_M(p, q) = \sqrt{(p-q)^T S^{-1} (p-q)}
-\]
 Mahalanobis distance considers both the variance of each feature and the correlations between features, making it effective when the dataset includes variables with different scales or correlated features.
 
 ---
