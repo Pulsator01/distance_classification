@@ -67,3 +67,8 @@ In contrast, when K is large, the model may become too generalized. High bias in
 
 #### Balancing Bias and Variance:
 Finding the right balance between bias and variance involves choosing a moderate value of K. Using cross-validation techniques can help identify the optimal K value that minimizes prediction error and improves model performance.
+
+
+#### Wandb Dashboard Images
+![Image1](images/wandb_dashboard_1.png)
+![Image2](images/wandb_dashboard_2.png)
